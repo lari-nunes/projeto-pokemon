@@ -1,0 +1,104 @@
+.namePokemon {
+    background: linear-gradient(120deg,  rgb(245, 208, 128), rgb(241, 243, 134), rgb(240, 159, 121));
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.Box {
+    cursor: pointer;
+    background: linear-gradient(190deg, rgb(231, 201, 119), rgb(243, 203, 142), rgb(241, 201, 112));
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin: none;
+    padding: 10px;
+    height: 100%;
+    width: 100;
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+}       
+
+.hoverPoke:hover{
+    background: linear-gradient(190deg, rgb(236, 223, 147), rgb(248, 191, 105), rgb(252, 188, 128));
+}
+
+.listagemPokemon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.detalhesPoke {
+    position: absolute;
+    top: 250px;
+    right: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(170, 102, 1);
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    
+}
+
+.detalhes { 
+    padding-bottom: 15px;
+    font-size: 5px;
+}
+
+.pagAnterior {
+    position: absolute; 
+    left: 30px;     
+    bottom: 92%;
+    width: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px 1px rgb(182, 74, 2);
+    
+}
+.pokedexImage{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%; 
+    height: 550px; 
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgb(182, 74, 2);
+}
+
+.detalhesPokemon {
+    font-size: 10px;
+   
+}
+
+.fotoDetalhes{
+    position: absolute;
+    right: 60px;
+    bottom: 88%;
+}
+
+.pokemonImage{
+    position: absolute;
+    top: 220px;
+    right: 55%;
+    height: 200px;
+}
+
