@@ -1,4 +1,3 @@
 Projeto Pokemon em React
 -------------------------------------------
-
-http://localhost:3000
+Deploy: https://pokemon-ten-livid.vercel.app
